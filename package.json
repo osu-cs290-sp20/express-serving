@@ -1,0 +1,32 @@
+{
+  "name": "express-serving",
+  "version": "1.0.0",
+  "description": "HTTP serving with Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-sp20/express-serving.git"
+  },
+  "keywords": [
+    "Express",
+    "HTTP",
+    "Serving"
+  ],
+  "author": "Hess <hessro@oregonstate.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp20/express-serving/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp20/express-serving#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
